@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --background: rgba(250, 245, 236, 1);
+  --correct: rgba(68, 217, 65, 1);
+  --wrong: rgba(241, 41, 41, 1);
+  --border: rgba(33, 31, 29, 1);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  background-color: var(--background);
+  font-family: 'Space Mono', monospace;
+}
